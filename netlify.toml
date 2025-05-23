@@ -1,0 +1,8 @@
+[build]
+base = "apps/web"
+command = "yarn build"
+publish = ".next"
+
+# Optional: only include if you're using Netlify Functions
+# [functions]
+# directory = "netlify/functions"
