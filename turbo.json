@@ -5,6 +5,13 @@
       "cache": false,
       "dependsOn": ["post-install"]
     },
+    "build": {
+      "dependsOn": [],
+      "outputs": ["dist/**", ".next/**"]
+    },
+    "dev": {
+      "cache": false
+    },
     "@calcom/prisma#db-migrate": {
       "cache": false,
       "dependsOn": ["@calcom/prisma#db-up"],
