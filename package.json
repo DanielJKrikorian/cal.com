@@ -87,6 +87,7 @@
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "2.29.4",
     "@jetstreamapp/soql-parser-js": "^6.1.0",
+    "@netlify/plugin-nextjs": "^5.11.2",
     "@playwright/test": "^1.45.3",
     "@snaplet/copycat": "^4.1.0",
     "@testing-library/jest-dom": "^5.16.5",

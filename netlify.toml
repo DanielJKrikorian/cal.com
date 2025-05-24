@@ -1,4 +1,12 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+
 [build]
-base = "."
-command = "yarn build"
-publish = "apps/web/.next"
+  command = "yarn build"
+  publish = "apps/web/.next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
